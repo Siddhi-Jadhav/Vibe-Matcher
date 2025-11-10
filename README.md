@@ -63,7 +63,10 @@ Install the required Python packages in Colab or locally:
 ```bash
 pip install numpy pandas scikit-learn matplotlib openai
 
-📝 How to Run
+
+---
+
+**📝 How to Run**
 
 Open vibe_matcher.ipynb in Google Colab or Jupyter.
 
