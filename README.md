@@ -55,38 +55,74 @@ vibe_matcher.ipynb # Main notebook (with outputs)
 
 ---
 
+
+
 ## ⚙️ Requirements
-Install dependencies inside Colab or locally:
+Install the required Python packages in Colab or locally:
 
 ```bash
 pip install numpy pandas scikit-learn matplotlib openai
+
 📝 How to Run
-Open the notebook in Google Colab
 
-Upload the dataset (products.csv)
+Open vibe_matcher.ipynb in Google Colab or Jupyter.
 
-Run all cells to generate outputs
+Upload the dataset products.csv.
 
-Enter a vibe query when prompted
+Run all notebook cells to generate outputs.
 
-View top-3 recommendations
+Enter your vibe query when prompted.
 
-tput includes product names, descriptions, similarity scores, and ranked results.
+View the top-3 recommended products along with:
 
-🧪 Evaluation
-Evaluation includes:
+Product names
 
-Latency test (embedding + similarity time)
+Descriptions
 
-Embedding consistency check
+Similarity scores
 
-Qualitative accuracy review
+Ranked results
 
-Reflection section on what worked and what can improve
+---
 
-💭 Reflection Summary
-The prototype performs well for short, descriptive vibe queries and small datasets. With more items, fine-tuned embeddings, and metadata (colors, tags, styles), the system can scale into a robust real-world recommendation engine.
+**## ✨ Sample Vibe Query:**
 
-📜 License
+"Minimal Korean streetwear with clean lines"
+
+---
+
+**🧪 Evaluation**
+
+The prototype includes simple evaluation steps:
+
+Latency Test: Measure time for embedding generation and similarity computation.
+
+Embedding Consistency: Verify repeated queries produce stable similarity scores.
+
+Qualitative Accuracy: Check if top matches are relevant to the input vibe.
+
+Reflection: Summarize what worked and potential improvements.
+
+---
+
+**💭 Reflection Summary**
+
+Works well for short, descriptive vibe queries and small datasets.
+
+Can scale to larger datasets with:
+
+Fine-tuned embeddings
+
+Additional metadata (colors, tags, styles)
+
+Possible improvements:
+
+Integration with vector databases (e.g., Pinecone) for faster search
+
+Handling ambiguous or rare vibe queries with fallback strategies
+---
+
+**📜 License**
+
 This project is for educational and submission purposes only.
 
