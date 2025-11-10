@@ -29,17 +29,29 @@ The notebook includes:
 ## 📂 Project Structure
 vibe-matcher/
 │
-├── vibe_matcher.ipynb # Main notebook (with outputs)
-├── data/
-│ └── products.csv # Sample fashion dataset (5–10 items)
-├── src/
-│ ├── embeddings.py # Embedding utilities
-│ ├── similarity.py # Cosine similarity + ranking
-│ └── plotting.py # Visualization utilities
-└── README.md # You're reading this file
 
-yaml
-Copy code
+├── 
+vibe_matcher.ipynb # Main notebook (with outputs)
+
+├── data/
+
+│ 
+└── products.csv # Sample fashion dataset (5–10 items)
+
+├
+── src/
+
+│
+├── embeddings.py # Embedding utilities
+
+│ 
+├── similarity.py # Cosine similarity + ranking
+
+│
+└── plotting.py # Visualization utilities
+└── README.md 
+
+
 
 ---
 
@@ -59,11 +71,7 @@ Enter a vibe query when prompted
 
 View top-3 recommendations
 
-✨ Sample Vibe Query
-arduino
-Copy code
-"Minimal Korean streetwear with clean lines"
-Output includes product names, descriptions, similarity scores, and ranked results.
+tput includes product names, descriptions, similarity scores, and ranked results.
 
 🧪 Evaluation
 Evaluation includes:
@@ -79,27 +87,6 @@ Reflection section on what worked and what can improve
 💭 Reflection Summary
 The prototype performs well for short, descriptive vibe queries and small datasets. With more items, fine-tuned embeddings, and metadata (colors, tags, styles), the system can scale into a robust real-world recommendation engine.
 
-🙋‍♀️ Why AI at Nexora?
-I’m excited about Nexora because the company builds practical, high-impact AI solutions. This assignment showed me how Nexora approaches AI thoughtfully—through rapid prototyping, experimentation, and measurable outcomes. I want to contribute to such an environment, learn continuously, and grow with the AI team.
-
-📎 Submission
-Colab Notebook Link: Add your link here
-GitHub Repo Link: Add your repo URL here
-
 📜 License
 This project is for educational and submission purposes only.
 
-yaml
-Copy code
-
----
-
-If you want, I can also generate:
-
-✅ `products.csv`  
-✅ `requirements.txt`  
-✅ `src/` folder code  
-✅ Cleaner README style (with badges, emoji, colors)  
-✅ A GitHub-ready version with images/screenshots
-
-Just tell me: **“Generate full GitHub package.”**
