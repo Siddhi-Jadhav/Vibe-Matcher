@@ -1,0 +1,20 @@
+# Vibe Matcher Prototype
+This notebook builds a mini vibe-based recommender. It uses OpenAI embeddings (`text-embedding-3-large`) if you provide `OPENAI_API_KEY`.
+
+**How to use:**
+
+1. If you want to use OpenAI, set your API key as an environment variable in your system or Colab.
+2. Run the cells below. The notebook includes a deterministic TF-IDF+SVD fallback for offline use.
+
+# Install dependencies (run this cell if running in Colab)
+# !pip install -q pandas scikit-learn matplotlib openai nbformat
+print('Ready. Install dependencies if needed by uncommenting the pip install line.')
+# Show products.csv
+with open('data/products.csv','r',encoding='utf-8') as f:
+    print(f.read())
+# Run evaluation (fallback embeddings by default)
+!python src/eval.py
+
+## Notes
+- To use OpenAI embeddings, set the environment variable `OPENAI_API_KEY` and run `python -c "from src.eval import run_tests; run_tests(prefer_openai=True)"` or edit `src/eval.py` to call `run_tests(prefer_openai=True)`. 
+- `text-embedding-3-large` is used in the embedder wrapper; costs may apply when calling OpenAI.
