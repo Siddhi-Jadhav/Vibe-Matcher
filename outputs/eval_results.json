@@ -1,0 +1,134 @@
+[
+  {
+    "query": "energetic urban chic",
+    "results": [
+      {
+        "id": 5,
+        "name": "Athleisure Leggings",
+        "desc": "Performance leggings with breathable panels \u2014 active, energetic, street-ready.",
+        "tags": [
+          "athleisure",
+          "active"
+        ],
+        "score": 0.5937327108727983
+      },
+      {
+        "id": 6,
+        "name": "Vintage Denim Jacket",
+        "desc": "Distressed denim with retro patches \u2014 nostalgic, casual, layered looks.",
+        "tags": [
+          "vintage",
+          "casual"
+        ],
+        "score": 0.49238724332791695
+      },
+      {
+        "id": 2,
+        "name": "Urban Bomber Jacket",
+        "desc": "Cropped bomber, sharp lines, matte finish \u2014 energetic urban chic for city nights.",
+        "tags": [
+          "urban",
+          "chic",
+          "energetic"
+        ],
+        "score": 0.45399026087822647
+      }
+    ],
+    "best_score": 0.5937327108727983,
+    "fallback": "No strong match (best score 0.594 < threshold 0.7). Consider broadening query or showing curated picks.",
+    "timings": {
+      "embedding_s": 0.006771500004106201,
+      "similarity_s": 0.0022446000002673827,
+      "total_s": 0.009016100004373584
+    },
+    "end_to_end_s": 0.010327899995900225
+  },
+  {
+    "query": "cozy hygge weekend",
+    "results": [
+      {
+        "id": 5,
+        "name": "Athleisure Leggings",
+        "desc": "Performance leggings with breathable panels \u2014 active, energetic, street-ready.",
+        "tags": [
+          "athleisure",
+          "active"
+        ],
+        "score": 0.5937327108727983
+      },
+      {
+        "id": 6,
+        "name": "Vintage Denim Jacket",
+        "desc": "Distressed denim with retro patches \u2014 nostalgic, casual, layered looks.",
+        "tags": [
+          "vintage",
+          "casual"
+        ],
+        "score": 0.49238724332791695
+      },
+      {
+        "id": 2,
+        "name": "Urban Bomber Jacket",
+        "desc": "Cropped bomber, sharp lines, matte finish \u2014 energetic urban chic for city nights.",
+        "tags": [
+          "urban",
+          "chic",
+          "energetic"
+        ],
+        "score": 0.45399026087822647
+      }
+    ],
+    "best_score": 0.5937327108727983,
+    "fallback": "No strong match (best score 0.594 < threshold 0.7). Consider broadening query or showing curated picks.",
+    "timings": {
+      "embedding_s": 0.0069407999981194735,
+      "similarity_s": 0.001861500000813976,
+      "total_s": 0.00880229999893345
+    },
+    "end_to_end_s": 0.009565299995301757
+  },
+  {
+    "query": "boho festival flowy",
+    "results": [
+      {
+        "id": 5,
+        "name": "Athleisure Leggings",
+        "desc": "Performance leggings with breathable panels \u2014 active, energetic, street-ready.",
+        "tags": [
+          "athleisure",
+          "active"
+        ],
+        "score": 0.5937327108727983
+      },
+      {
+        "id": 6,
+        "name": "Vintage Denim Jacket",
+        "desc": "Distressed denim with retro patches \u2014 nostalgic, casual, layered looks.",
+        "tags": [
+          "vintage",
+          "casual"
+        ],
+        "score": 0.49238724332791695
+      },
+      {
+        "id": 2,
+        "name": "Urban Bomber Jacket",
+        "desc": "Cropped bomber, sharp lines, matte finish \u2014 energetic urban chic for city nights.",
+        "tags": [
+          "urban",
+          "chic",
+          "energetic"
+        ],
+        "score": 0.45399026087822647
+      }
+    ],
+    "best_score": 0.5937327108727983,
+    "fallback": "No strong match (best score 0.594 < threshold 0.7). Consider broadening query or showing curated picks.",
+    "timings": {
+      "embedding_s": 0.013322099999641068,
+      "similarity_s": 0.0016972000012174249,
+      "total_s": 0.015019300000858493
+    },
+    "end_to_end_s": 0.015940600002068095
+  }
+]
